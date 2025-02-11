@@ -80,34 +80,34 @@
 // console.log(shop('cherry', 58, 1.3));
 // console.log(shop('orange', 89, 3.4));
 
-const shop = {
-  product: 'banana',
-  price: 30,
-  quantity: 4.5,
-  getCost() {
-    let cost = Math.round(this.price * this.quantity * 100) / 100;
-    console.log(`${this.product} - ${cost}`);
-  },
-};
+// const shop = {
+//   product: 'banana',
+//   price: 30,
+//   quantity: 4.5,
+//   getCost() {
+//     let cost = Math.round(this.price * this.quantity * 100) / 100;
+//     console.log(`${this.product} - ${cost}`);
+//   },
+// };
 
-const banana = {
-  product: 'banana',
-  price: 30,
-  quantity: 4.5,
-};
+// const banana = {
+//   product: 'banana',
+//   price: 30,
+//   quantity: 4.5,
+// };
 
-const cherry = {
-  product: 'cherry',
-  price: 58,
-  quantity: 1.3,
-};
+// const cherry = {
+//   product: 'cherry',
+//   price: 58,
+//   quantity: 1.3,
+// };
 
-const orange = {
-  product: 'orange',
-  price: 89,
-  quantity: 3.4,
-};
+// const orange = {
+//   product: 'orange',
+//   price: 89,
+//   quantity: 3.4,
+// };
 
-shop.getCost.call(banana);
-shop.getCost.apply(orange);
-shop.getCost.bind(cherry)();
+// shop.getCost.call(banana);
+// shop.getCost.apply(orange);
+// shop.getCost.bind(cherry)();
